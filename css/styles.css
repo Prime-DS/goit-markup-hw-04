@@ -202,6 +202,7 @@ a.logo {
 
 .contact-phone:hover,
 .contact-phone:focus {
+  fill: var(--accent-color);
   color: var(--accent-color);
 }
 
@@ -584,6 +585,10 @@ a.logo {
 
   cursor: pointer;
 } */
+
+.portfolio-link {
+  display: block;
+}
 
 .portfolio-link:hover,
 .portfolio-link:focus {
